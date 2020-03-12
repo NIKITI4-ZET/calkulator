@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>КАЛЬКУЛЯТР</title>
+</head>
+<body>
+<center>
+    <div id="mainotvet" style="background: red; width: 1000px; height: 100px; border-radius: 20px; font-size: 40px; display: flex; align-items: center; font-weight: bold"></div>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px; cursor: pointer " onclick="knopkascoba()">(</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius: 10px; margin: 10px;cursor: pointer" onclick="knopkaskoba()">) </button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius: 10px; margin: 10px;cursor: pointer" onclick="knopkaproc()">% </button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius: 10px; margin: 10px;cursor: pointer" onclick="knopkaac()">AC </button>
+</center>
+<center>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopka7()">7</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopka8()">8</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopka9()">9</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px ;cursor: pointer" onclick="knopkadel()">&divide;</button>
+</center>
+<center>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopka4()">4</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopka5()">5</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopka6()">6</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopkaumn()">*</button>
+
+</center>
+<center>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer  " onclick="knopka1()">1</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopka2()">2</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopka3()">3</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px ;cursor: pointer" onclick="knopkaminus()">-</button>
+</center>
+<center>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopka0()">0</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopkatochka()">.</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer; background: dodgerblue " onclick="knopkaravno()">=</button>
+    <button style="width:125px; height: 80px; font-size: 40px; border-radius:10px; margin: 10px;cursor: pointer " onclick="knopkaplus()">+</button>
+</center>
+</body>
+<script>
+    mainotvet=''
+    function knopka1() {
+        mainotvet+='1'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopka2() {
+        mainotvet+='2'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopka3() {
+        mainotvet+='3'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopka3() {
+        mainotvet+='3'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopka4() {
+        mainotvet+='4'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopka5() {
+        mainotvet+='5'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopka6() {
+        mainotvet+='6'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopka7() {
+        mainotvet+='7'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopka8() {
+        mainotvet+='8'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopka9() {
+        mainotvet+='9'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopka0() {
+        mainotvet+='0'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopkaumn() {
+        mainotvet+='*'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopkatochka() {
+        mainotvet+='.'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopkadel() {
+        mainotvet+='&divide;'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopkaravno() {
+        mainotvet+='='
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopkaplus() {
+        mainotvet+='+'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopkaminus() {
+        mainotvet+='-'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopkaskoba () {
+        mainotvet+=')'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopkaproc() {
+        mainotvet+='%'
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopkascoba() {
+        mainotvet+='('
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+    function knopkaac() {
+        mainotvet+='AC'onClick(0)
+        document.getElementById('mainotvet').innerHTML=mainotvet
+    }
+
+</script>
+</html>
